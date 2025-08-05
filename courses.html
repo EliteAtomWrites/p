@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses | Elite Atom Pro</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://js.paystack.co/v1/inline.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+<header class="navbar">
+    <div class="logo">Elite Atom Pro</div>
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="courses.html" class="active">Courses</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</header>
+
+<section class="courses fade-in">
+    <h2>Courses</h2>
+    <div class="course-cards">
+        <div class="card">
+            <h3>Ghostwriting Mastery</h3>
+            <p>Learn the art of ghostwriting with one-on-one tutoring sessions.</p>
+            <button class="cta-btn" onclick="payWithPaystack(20000, 'mutiuhammed60@gmail.com')">Enroll - ₦20,000</button>
+        </div>
+        <div class="card">
+            <h3>Website Creation From Scratch</h3>
+            <p>Master website building without coding experience required.</p>
+            <button class="cta-btn" onclick="payWithPaystack(25000, 'mutiuhammed60@gmail.com')">Enroll - ₦25,000</button>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 Elite Atom Pro | All Rights Reserved</p>
+</footer>
+</body>
+</html>
